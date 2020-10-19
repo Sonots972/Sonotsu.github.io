@@ -1,0 +1,125 @@
+
+
+body
+{
+    background-image: url("dude");
+}
+
+overlay-image {
+    position: relative;
+    width: 100%;
+   }
+   /* Image originale */
+   .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: 80%;
+   }
+   /* Texte original */
+   .overlay-image .text {
+    color: rgb(238, 215, 4);
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+   }
+
+ ul
+{
+    
+    text-align: center;
+}
+
+#navigation li {
+
+    display: inline;
+    text-align: center;
+
+
+
+}
+h3 {
+     
+    text-align: center;
+}
+
+h4{
+    text-align: right;
+  font-size: x-large;
+}
+h5{
+    text-align: center;
+    font-size: xx-large;
+color: rgb(4, 81, 245)
+   
+  
+}
+h6{ 
+    text-align: right;
+
+
+}
+
+.conteneur-droit{
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+
+.conteneur-gauche{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.conteneur-gauche p{
+    flex: 1;
+    text-align: center;
+}
+
+.conteneur-droit p{
+    flex: 1;
+    text-align: center;
+}
+
+section{
+
+
+    margin:80px 20px;
+}
+
+.conteneur-centre{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.conteneur-aline{
+
+    display: flex;
+       justify-content: space-around;
+  
+}
+
+.conteneur-four{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#background{
+
+    background-image:url(etoile.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-size: cover;
+   color: white;
+}
